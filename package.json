@@ -1,0 +1,21 @@
+{
+  "name": "lcs-png-diff",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lcs-png-diff": "file:./pkg"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "jimp": "^0.16.1"
+  }
+}

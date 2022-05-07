@@ -4,3 +4,11 @@ Cargo.lock
 bin/
 pkg/
 wasm-pack.log
+.vscode
+/node_modules
+/coverage
+
+/web-app/node_modules
+/web-app/dist
+
+/tests/fixtures/results/*.png
