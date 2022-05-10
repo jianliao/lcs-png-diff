@@ -321,10 +321,10 @@ fn exploration() {
     let result = generate_diff_png(
         before.as_bytes().to_vec(),
         before.dimensions().0 as usize,
-        before.dimensions().1 as usize,
+        // before.dimensions().1 as usize,
         after.as_bytes().to_vec(),
         after.dimensions().0 as usize,
-        after.dimensions().1 as usize,
+        // after.dimensions().1 as usize,
     );
     println!(
         "Result width: {:?}, height: {:?}",
