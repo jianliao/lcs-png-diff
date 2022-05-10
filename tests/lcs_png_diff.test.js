@@ -21,10 +21,10 @@ const validatePNG = async (fixtureName, { data, width, height }) => {
 //   const result = generate_diff_png(
 //     before.data,
 //     before.width,
-//     before.height,
+//  // before.height,
 //     after.data,
 //     after.width,
-//     after.height
+//  // after.height
 //   );
 
 //   try {
@@ -44,10 +44,10 @@ test('Slider', async () => {
   const result = generate_diff_png(
     before.data,
     before.width,
-    before.height,
+    // before.height,
     after.data,
     after.width,
-    after.height
+    // after.height
   );
 
   try {
@@ -67,10 +67,10 @@ test('Slider', async () => {
 //   const result = generate_diff_png(
 //     before.data,
 //     before.width,
-//     before.height,
+//  // before.height,
 //     after.data,
 //     after.width,
-//     after.height
+//  // after.height
 //   );
 
 //   try {

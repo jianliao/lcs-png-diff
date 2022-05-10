@@ -29,8 +29,5 @@ fn function_signature() {
         5,
         6,
     );
-    assert_eq!(
-        result.len,
-        12
-    );
+    assert_eq!(result.len, 12);
 }

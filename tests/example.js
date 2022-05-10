@@ -11,10 +11,10 @@ const { resolve } = require('path');
   const result = generate_diff_png(
     before.bitmap.data,
     before.bitmap.width,
-    before.bitmap.height,
+    // before.bitmap.height,
     after.bitmap.data,
     after.bitmap.width,
-    after.bitmap.height
+    // after.bitmap.height
   );
-  console.timeEnd('codezup')
+  console.timeEnd('codezup');
 })();

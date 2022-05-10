@@ -13,7 +13,6 @@ all_image_formats = ["image/png"]
 
 [dependencies]
 wasm-bindgen = "0.2.63"
-lcs-diff = "0.1.1"
 base64 = "0.13.0"
 image = { version = "0.24.2", default-features = false }
 
